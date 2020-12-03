@@ -25,6 +25,7 @@ body {
   font-size: 16px;
   font-family: var(--main-font);
   line-height: 1;
+  background-color: var(--col-1);
 }
 
 img {
@@ -43,4 +44,17 @@ main {
 button {
   cursor: pointer;
   border: none;
+}
+
+.shop-grid {
+  @media (--small) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr;
+    grid-gap: 2vw;
+  }
+
+  @media (--large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

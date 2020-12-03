@@ -4,7 +4,7 @@
   "description": "config",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "host": "webpack-dev-server --mode development --host 192.168.1.7",
+    "host": "webpack-dev-server --mode development --host 192.168.0.41",
     "build": "webpack --mode production"
   },
   "devDependencies": {
