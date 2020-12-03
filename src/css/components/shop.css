@@ -1,14 +1,1 @@
-.shop {
-  background-color: var(--col-1);
-}
-
-.shop__items-list {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 100%;
-  border-top: 1px solid var(--col-2);
-  border-bottom: 1px solid var(--col-2); 
-  list-style: none;
-}
 
