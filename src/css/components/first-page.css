@@ -1,0 +1,30 @@
+.first-page {
+  padding-top: 70px;
+  padding-left: 20px;
+}
+
+.first-page__logo {
+  margin-bottom: 25px;
+}
+
+.first-page__nav {
+  padding-left: 70px;
+}
+
+.first-page__list-item {
+  list-style: none;
+}
+
+.first-page__list-item + .first-page__list-item {
+  margin-top: 10px;
+}
+
+.first-page__item {
+  color: var(--col-1);
+  font-size: 25px;
+  transition: 0.2s ease opacity;
+}
+
+.first-page__item:hover {
+  opacity: 0.8;
+}

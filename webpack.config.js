@@ -1,6 +1,5 @@
 const path = require('path');
 const fs = require('fs');
-const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -88,10 +87,6 @@ const pluginsProd = {
         to: './fonts'
       }
     ]),
-    new FaviconsWebpackPlugin({
-      logo: './src/favicon/favicon.png',
-      prefix: 'favicon/'
-    }),
     new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })
   ]
 };

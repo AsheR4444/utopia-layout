@@ -1,5 +1,5 @@
 ## Верстка сайта Utopia
-Макет: https://www.figma.com/file/ZTEoy1rtynveXftFBBLyLS/Untitled?node-id=1%3A2
+Макет: https://www.figma.com/file/7DwspX6H9TwAnC2gYZW6jy/Untitled?node-id=0%3A1
 
 Установка зависимостей: ```npm i```
 
