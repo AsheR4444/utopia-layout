@@ -9,4 +9,6 @@
 @import "./components/logo.css";
 @import "./components/footer.css";
 @import "./components/shop.css";
-@import "./components/products.css";
+@import "./components/shop-list.css";
+@import "./components/shop-item.css";
+@import "./components/border.css";

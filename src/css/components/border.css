@@ -1,0 +1,22 @@
+.border {
+  border-top: 1px solid var(--col-2);
+  border-bottom: 1px solid var(--col-2);
+}
+
+.border:before {
+  display: block;
+  margin-top: 37px;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: var(--col-2);
+}
+
+.border:after {
+  display: block;
+  margin-bottom: 37px;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: var(--col-2);
+}

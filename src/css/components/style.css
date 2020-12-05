@@ -44,3 +44,8 @@ button {
   cursor: pointer;
   border: none;
 }
+
+.screen {
+  position: relative;
+  min-height: 100vh;
+}
