@@ -1,6 +1,6 @@
 .shop-item{
   border: 1px solid var(--col-2);
-  list-style-type: none;
+  list-style: none;
   text-align: center;
   overflow: hidden;
 }
@@ -13,7 +13,7 @@
 .shop-item__title {
   font-size: 18px;
   color: var(--col-2);
-  opacity: 56%;
+  opacity: 0.56;
 }
 
 
@@ -24,11 +24,10 @@
 
 .shop-item__link {
   display: block;
-  overflow: hidden;
+  transition: transform 0.4s ease-in-out;
 }
 
 .shop-item__img{
-  transition: transform 0.4s ease-in-out;
   width: 384px;
   height: 384px;
 }
@@ -37,21 +36,17 @@
   transform: scale(1.03); 
 }
 
-.shop-item__title:after {
+.shop-item__title::after {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8px;
+  margin: 8px auto auto;
   content: "";
   height: 2px;
-  width: 170px;
+  width: 40%;
   background-color: var(--col-2);
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
 }
 
-.shop-item__title:hover:after,
-.shop-item__title:focus:after {
-  visibility: visible;
+.shop-item__title:hover::after {
   transform: scaleX(1);
 }
