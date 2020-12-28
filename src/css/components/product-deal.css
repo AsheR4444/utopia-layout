@@ -1,0 +1,134 @@
+.product-deal {
+  display: flex;
+}
+
+.product-deal__form {
+  padding-left: 81px;
+  width: 902px;
+  border-right: 1px solid var(--col-2);
+}
+
+.product-deal__contacts {
+  display: flex;
+  flex-direction: column ;
+}
+
+.product-deal__input {
+  padding: 11px;
+  width: 618px;
+  height: 51px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.product-deal__input:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.product-deal__contacts-title {
+  margin-bottom: 36px;
+  font-size: 27px;
+  font-weight: 400;
+  color: var(--col-2);
+}
+
+.product-deal__address-title {
+  margin-bottom: 36px;
+  font-size: 27px;
+  font-weight: 400;
+  color: var(--col-2);
+}
+
+.product-deal__contacts {
+  padding-top: 36px;
+  padding-bottom: 26px;
+}
+
+.product-deal__address {
+  padding-top: 36px;
+  padding-bottom: 26px; 
+}
+
+.product-deal__button {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 11px;
+  width: 618px;
+  background-color: var(--col-2);
+  border: 0px;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--col-1);
+}
+
+.product-deal__button:hover {
+  background-color: var(--col-1);
+  color: var(--col-2);
+  border: 1px solid var(--col-2);
+}
+
+.product-deal__info {
+  display: flex;
+  padding-left: 33px;
+  padding-top: 37px ;
+}
+
+.product-deal__img {
+  width: 202px;
+  height: 181px;
+}
+
+.poduct-deal__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 181px;
+}
+
+.product-deal__title {
+  margin-bottom: 7px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--col-2);
+}
+
+.product-deal__description {
+  display: inline-block;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--col-2);
+  opacity: 0.54;
+}
+
+.product-deal__size-cost {
+  display: flex;
+}
+
+.product-deal__size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 53px;
+  width: 66px;
+  background-color: var(--col-2);
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--col-1);
+}
+
+.product-deal__cost {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 53px;
+  width: 144px;
+  border: 1px solid var(--col-2);
+  font-size: 14px;
+  font-weight: 400;
+}
