@@ -3,6 +3,7 @@
   --col-2: #000000;
   --main-font: "Ubuntu", sans-serif;
 }
+
 /* grid */
 @custom-media --extra-small (width <575px);
 @custom-media --small (width >=576px);
