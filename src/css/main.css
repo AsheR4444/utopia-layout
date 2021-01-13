@@ -7,4 +7,8 @@
 @import "./components/background-banner.css";
 @import "./components/first-page.css";
 @import "./components/logo.css";
+@import "./components/product-title.css";
+@import "./components/product-description.css";
+@import "./components/main-button.css";
+@import "./components/shop-main.css";
 @import "./components/footer.css";

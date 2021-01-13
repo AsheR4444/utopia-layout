@@ -1,0 +1,24 @@
+.main-button {
+  display: block;
+  background: var(--col-1);
+  text-transform: uppercase;
+  border: 1px solid var(--col-2);
+  color: var(--col-2);
+  padding: 15px 65px;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.main-button:hover {
+  background: var(--col-2);
+  color: var(--col-1);
+}
+
+.main-button--box {
+  width: 55px;
+  height: 50px;
+  padding: 0;
+}
+
+.main-button + .main-button {
+  margin-left: 15px;
+}
