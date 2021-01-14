@@ -5,7 +5,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "host": "webpack-dev-server --mode development --host 192.168.1.7",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "csslint": "npx stylelint src/css/**/*.css --fix"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -25,6 +26,9 @@
     "postcss-focus": "^4.0.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^1.0.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.14"

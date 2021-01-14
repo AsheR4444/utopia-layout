@@ -5,6 +5,7 @@
   --col-2: #000000;
   --col-3: #757575;
 }
+
 /* grid */
 @custom-media --extra-small (width <575px);
 @custom-media --small (width >=576px);
