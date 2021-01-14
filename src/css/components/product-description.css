@@ -1,6 +1,6 @@
 .product-description {
+  color: var(--col-3);
   font-weight: 400;
   font-size: 15px;
-  color: var(--col-3);
   text-transform: uppercase;
 }
