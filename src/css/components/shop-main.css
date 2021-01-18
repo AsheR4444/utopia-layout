@@ -2,10 +2,25 @@
   padding: 50px 0;
 }
 
-.shop-main__wrapper {
-  @media (--large) {
-    display: flex;
+
+.shop-main__wrapper { 
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: center;
+
+  @media (--extra-large) {
     justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.shop-main__info {
+  margin-top: 15px;
+
+  @media (--extra-large) {
+    margin-top: 0px; 
   }
 }
 
@@ -60,8 +75,10 @@
 .shop-main__sizes {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 35px;
 }
+
 
 .shop-main__buy-button {
   width: 100%;

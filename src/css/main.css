@@ -12,4 +12,8 @@
 @import "./components/shop-list.css";
 @import "./components/shop-item.css";
 @import "./components/border.css";
-@import "./components/product-item.css";
+@import "./components/shop-main.css";
+@import "./components/product-title.css";
+@import "./components/product-description.css";
+@import "./components/main-button.css";
+
