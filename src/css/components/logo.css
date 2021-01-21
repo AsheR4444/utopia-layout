@@ -4,4 +4,7 @@
 
 .logo__img {
   display: block;
+  object-fit: contain;
+  width: 130px;
+  height: 70px;
 }

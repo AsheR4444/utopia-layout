@@ -1,10 +1,10 @@
 .header {
+  border-bottom: 1px solid var(--col-2);
+}
+
+.header__wrapper {
   display: flex;
   align-items: center;
-  height: 143px;
-  padding-left: 45px;
-  padding-right: 86px;
-  border-bottom: 1px solid var(--col-2);
 }
 
 .header__list {

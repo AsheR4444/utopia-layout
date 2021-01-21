@@ -94,7 +94,7 @@ const pluginsProd = {
 const devServer = {
   devServer: {
     overlay: true,
-    port: 3000,
+    port: 3001,
     stats: 'errors-only'
   }
 };
