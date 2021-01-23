@@ -1,0 +1,52 @@
+.shop-item{
+  border: 1px solid var(--col-2);
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+.shop-item__description {
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+
+.shop-item__title {
+  font-size: 18px;
+  color: var(--col-2);
+  opacity: 0.56;
+}
+
+
+.shop-item__cost {
+  padding-top: 5px;
+  font-size: 18px;
+}
+
+.shop-item__link {
+  display: block;
+  transition: transform 0.4s ease-in-out;
+}
+
+.shop-item__img{
+  width: 384px;
+  height: 384px;
+}
+
+.shop-item__link:hover {
+  transform: scale(1.03); 
+}
+
+.shop-item__title::after {
+  display: block;
+  margin: 8px auto auto;
+  content: "";
+  height: 2px;
+  width: 40%;
+  background-color: var(--col-2);
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.shop-item__title:hover::after {
+  transform: scaleX(1);
+}

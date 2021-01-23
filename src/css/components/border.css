@@ -1,0 +1,19 @@
+.border {
+  border-bottom: 1px solid var(--col-2);
+}
+
+.border::before,.border::after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: var(--col-2);
+}
+
+.border::after {
+  margin-bottom: 37px;
+}
+
+.border::before {
+  margin-top: 37px;
+}

@@ -25,6 +25,7 @@ body {
   font-size: 16px;
   font-family: var(--main-font);
   line-height: 1;
+  background: var(--col-1);
 }
 
 img {
@@ -43,4 +44,9 @@ main {
 button {
   border: none;
   cursor: pointer;
+}
+
+.screen {
+  position: relative;
+  min-height: 100vh;
 }

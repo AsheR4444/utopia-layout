@@ -3,10 +3,12 @@
     srcJs: htmlWebpackPlugin.files.chunks.main.entry,
     title: 'Главная страница'
 }; %>
-<%= _.template(require('./../templates/header.html'))(data) %>
 
 <main>
     <%= _.template(require('./../templates/first-page.html'))(data) %>
+    <%= _.template(require('./../templates/header.html'))(data) %>
+    <%= _.template(require('./../templates/shop.html'))(data) %>
+    
 </main>
 
 <%= _.template(require('./../templates/footer.html'))(data) %>
